@@ -21,15 +21,15 @@ $r = $_SESSION['room'] ?? [];
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Room Selection — Grand Maison</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>Room Selection — Grand BLD Hotel</title>
+  <link rel="stylesheet" href="../style.css"/>
 </head>
 <body>
 
 <nav>
-  <div class="nav-logo">The Grand <span>Maison</span></div>
+  <div class="nav-logo">The Grand <span>BLD</span></div>
   <div class="nav-steps">
-    <a href="guest.php" class="nav-step done">
+    <a href="guestinfo.php" class="nav-step done">
       <span class="num">✓</span>
       <span class="label">Guest Info</span>
     </a>
@@ -121,7 +121,7 @@ $r = $_SESSION['room'] ?? [];
       </div>
 
       <div class="btn-row">
-        <a href="guest.php" class="btn-back">&larr; Back</a>
+        <a href="guestinfo.php" class="btn-back">&larr; Back</a>
         <button type="submit" class="btn-next">Continue to Food &rarr;</button>
       </div>
     </form>
